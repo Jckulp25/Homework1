@@ -14,3 +14,5 @@ SELECT Name FROM Playlist;
 SELECT COUNT(*) from Track T Join Genre G on T.GenreId = G.GenreId where G.Name like "Rock";
 SELECT * from Employee where Reportsto like 2;
 SELECT I.CustomerId, sum(IL.Quantity) as total_sales from InvoiceLine IL JOIN Invoice I on I.InvoiceId = IL.InvoiceId GROUP by I.CustomerId;
+
+--This is my responses for part 1 of the assignment, poor time management and some issues with creating my own tables kept me from completing a satisfactory version of part 2
